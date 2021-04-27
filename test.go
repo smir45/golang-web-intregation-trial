@@ -12,5 +12,6 @@ func main() {
 	y = 2
 
 	fmt.Println(x - y)
+	//declaring variable in different ways
 
 }
