@@ -160,3 +160,31 @@ func IfStatement1Diff() {
 		fmt.Printf("%d is not the multiple of 5\n", a)
 	}
 }
+
+//trying if else if chain
+
+func chain() {
+	var BMI = 21.0
+	if BMI < 18.5 {
+		fmt.Println("You are underweight")
+	} else if BMI >= 18.5 && BMI < 25.0 {
+		fmt.Println("Your weight is normal")
+	} else if BMI >= 25.0 && BMI < 30.0 {
+		fmt.Println("You're overweight")
+	} else {
+		fmt.Println("You're obese")
+	}
+}
+
+func chain2() {
+	BMI := 21.0
+	if BMI < 18.5 {
+		fmt.Println("You are underweight")
+	} else if BMI >= 18.5 && BMI < 25.0 {
+		fmt.Println("Your weight is normal")
+	} else if BMI >= 25.0 && BMI < 30.0 {
+		fmt.Println("You're overweight")
+	} else {
+		fmt.Println("You're obese")
+	}
+}
