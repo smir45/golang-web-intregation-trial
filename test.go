@@ -188,3 +188,20 @@ func chain2() {
 		fmt.Println("You're obese")
 	}
 }
+
+//Arrays and Slices
+func arrays() {
+	var arrays [3]int = [3]int{12, 13, 14}
+	fmt.Println(arrays, len(arrays))
+}
+
+func array2() {
+	var array2 [3]string = [3]string{"One", "Two", "Three"}
+	fmt.Println(array2, len(array2))
+}
+
+func array3() {
+	name := [3]string{"One", "Two", "Three"}
+	name[0] = "Zero"
+	fmt.Println(name, len(name))
+}
