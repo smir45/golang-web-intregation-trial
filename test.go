@@ -89,7 +89,7 @@ func SecondConstant() {
 //trying integer constant
 
 func FirstConstantInteger() {
-	const a int = 12
+	const a int = 15
 	const b int = 13
 
 	fmt.Println(a)
