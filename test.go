@@ -205,3 +205,9 @@ func array3() {
 	name[0] = "Zero"
 	fmt.Println(name, len(name))
 }
+
+func array4() {
+	age := [4]int{1, 2, 3, 4}
+	age[0] = 43
+	fmt.Println(age, len(age))
+}
