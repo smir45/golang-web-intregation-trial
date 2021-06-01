@@ -9,7 +9,7 @@ func main() {
 	var y int
 
 	x = 1
-	y = 2
+	y = 5
 
 	fmt.Println(x)
 	fmt.Println(y)
