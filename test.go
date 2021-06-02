@@ -116,7 +116,7 @@ func IfStatement1() {
 }
 
 func IfStatement2() {
-	var greater int = 3
+	var greater int = 31
 	if greater >= 20 {
 		fmt.Printf("%d is greater", greater)
 	}
