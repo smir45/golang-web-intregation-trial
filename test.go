@@ -109,7 +109,7 @@ func SecondConstantInteger() {
 // Trying if statements in golang
 
 func IfStatement1() {
-	var a int = 1
+	var a int = 6
 	if a%5 == 0 {
 		fmt.Printf("%d is the multiple of 5\n", a)
 	}
