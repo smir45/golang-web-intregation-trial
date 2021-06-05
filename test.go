@@ -218,4 +218,6 @@ func Library() {
 	greeting := "hello everyone"
 
 	fmt.Println(strings.Contains(greeting, "hello"))
+	fmt.Println(strings.ReplaceAll(greeting, "hello", "learning"))
+
 }
