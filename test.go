@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -213,3 +214,8 @@ func array4() {
 }
 
 //learning libraries
+func Library() {
+	greeting := "hello everyone"
+
+	fmt.Println(strings.Contains(greeting, "hello"))
+}
