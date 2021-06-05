@@ -219,5 +219,5 @@ func Library() {
 
 	fmt.Println(strings.Contains(greeting, "hello"))
 	fmt.Println(strings.ReplaceAll(greeting, "hello", "learning"))
-
+	fmt.Println(strings.ToUpper(greeting))
 }
