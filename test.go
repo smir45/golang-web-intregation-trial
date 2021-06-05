@@ -211,3 +211,5 @@ func array4() {
 	age[0] = 43
 	fmt.Println(age, len(age))
 }
+
+//learning libraries
