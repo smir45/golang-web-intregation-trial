@@ -23,10 +23,10 @@ func main2() {
 	//Named untyped constant
 	const a = 123      //Default hidden type is int
 	const b = "circle" //Default hidden type is string
-	const c = 5.6      //Default hidden type is float64
-	const d = true     //Default hidden type is bool
-	const e = 'a'      //Default hidden type is rune
-	const f = 3 + 5i   //Default hidden type is complex128
+	//const c = 5.6      //Default hidden type is float64
+	const d = true   //Default hidden type is bool
+	const e = 'a'    //Default hidden type is rune
+	const f = 3 + 5i //Default hidden type is complex128
 
 	fmt.Println("")
 	fmt.Printf("Type: %T Value: %v\n", a, a)
