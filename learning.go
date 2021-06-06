@@ -33,6 +33,6 @@ func main2() {
 	fmt.Printf("Type: %T Value: %v\n", b, b)
 	fmt.Printf("Type: %T Value: %v\n", c, c)
 	fmt.Printf("Type: %T Value: %v\n", d, d)
-	//fmt.Printf("Type: %T Value: %v\n", e, e)
+	fmt.Printf("Type: %T Value: %v\n", e, e)
 	fmt.Printf("Type: %T Value: %v\n", f, f)
 }
