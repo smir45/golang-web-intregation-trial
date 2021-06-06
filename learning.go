@@ -17,7 +17,7 @@ func main2() {
 	fmt.Printf("Type: %T Value: %v\n", "circle", "circle")
 	fmt.Printf("Type: %T Value: %v\n", 5.6, 5.6)
 	fmt.Printf("Type: %T Value: %v\n", true, true)
-	//fmt.Printf("Type: %T Value: %v\n", 'a', 'a')
+	fmt.Printf("Type: %T Value: %v\n", 'a', 'a')
 	fmt.Printf("Type: %T Value: %v\n", 3+5i, 3+5i)
 
 	//Named untyped constant
