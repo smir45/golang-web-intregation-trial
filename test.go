@@ -448,4 +448,4 @@ func Library() {
 	fmt.Println(strings.ToUpper(greeting))
 	fmt.Println(strings.Index(greeting, "he"))
 }
-//Day 2 code comple
+//Day 2 code complet
