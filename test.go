@@ -223,4 +223,4 @@ func Library() {
 	fmt.Println(strings.Index(greeting, "he"))
 }
 
-//adding code
+//adding codes
