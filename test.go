@@ -223,4 +223,4 @@ func Library() {
 	fmt.Println(strings.Index(greeting, "he"))
 }
 
-//adding codes for Da
+//adding codes for Day
