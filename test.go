@@ -223,5 +223,4 @@ func Library() {
 	fmt.Println(strings.Index(greeting, "he"))
 }
 
-
-/
+//
