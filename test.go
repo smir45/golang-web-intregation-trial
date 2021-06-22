@@ -449,3 +449,6 @@ func Library() {
 	fmt.Println(strings.Index(greeting, "he"))
 }
 //Day 7 code completed
+
+
+/
