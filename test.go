@@ -900,3 +900,6 @@ func Library() {
 	fmt.Println(strings.Index(greeting, "he"))
 }
 //Day 8 end
+
+
+/Day 
