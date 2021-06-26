@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func Time() {
-	fmt.Println("trial")
+	time := time.Now()
+	fmt.Println(time)
 }
 
 func main() {
