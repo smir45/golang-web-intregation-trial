@@ -9,6 +9,7 @@ const a = 234
 func main() {
 	const a = 345
 	fmt.Println(a)
+
 }
 
 func main2() {
