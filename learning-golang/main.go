@@ -10,7 +10,7 @@ func Time() {
 	fmt.Println(time)
 }
 
-//previews current date
+//previews current date and
 func main() {
 	Time()
 }
