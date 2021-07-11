@@ -16,3 +16,5 @@ func ViewHandler(w http.ResponseWriter, r *http.Request) {
 	p, _ := loadpage(title)
 	fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
 }
+
+//used
